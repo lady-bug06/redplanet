@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    label{
+        margin: 20px 0;
+    }
+</style>
+</head>
+<body>
+  <form action="">
+      <label for="name">isim</label><br>
+      <input type="text" name="name" id="name"><br>
+      <label for="password">password</label><br>
+      <input type="password" name="" id="password"><br><br>
+      <button type="button">royxatdan otish</button>
+  </form> <br>
+  
+  <form> 
+      <label for="email">emailingizni kiriting</label>
+      <input type="text" name="email" id="email" placeholder="email"><br>
+      <button type="reset">resset</button>
+  </form><br>
+    
+  <form>
+      <label for="number">number</label>
+      <input type="number" name="" id="number"><br>
+
+
+
+      <label for="kun">date</label><br>
+      <input type="date" name="" id=""><br>
+  </form> <br>
+      <br>
+
+  <form action="">
+      <label for="file">file</label>
+      <input type="file" name="" id="file">
+  </form><br>
+      <br>
+      <br><br>
+  <form action="">
+      <label for="browser">Choose your browser from the list</label>
+      <input list="browser" name="browser" id="browser">
+      <datalist id="browsers">
+          <option value="Edge">
+            <option value="Chrome">
+                <option value="Opera">
+                    <option value="Safari">
+      </datalist>
+    
+  </form>
+
+    <br>
+    <br><br>
+    
+    <form action="">
+        <label for="cars"> Choose a car</label>
+        <select name="cars" id="cars" style="background-color: gray;">
+        <option value="">Volvo</option>
+        <option value="">BMW</option>
+        <option value="">Audi</option>
+        <option value="">Porche</option>
+        </select>
+    </form>
+
+    <form action="">
+        <input type="radio" name="gender"  id="male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" id="famale">
+       <label for="famale">famale</label><br>
+       <input type="radio" name="gender" id="other">
+       <label for="other">Others</label><br>
+        <button type="submit">Obuna boling</button>
+    </form><br>
+
+    <form action="">
+        <h2>imput "readonly" atribute</h2>
+        <label for="fname">first name</label>
+        <input type="text" name="fname" id="fname" value="John" readonly><br><br>
+        <label for="Iname">last name</label>
+        <input type="text" name="Iname" id="Iname" value="Done">
+    </form><br>
+    <form action="">
+        <h2>imput "disabled atribute</h2>
+        <label for="fname">First name</label>
+        <input type="text" name="fname" id="fname" value="John" disabled><br><br>
+        <label for="iname">last name</label>
+        <input type="text" name="iname" id="iname" value="Done">
+    </form><br>
+    <h2>imput "maxlenght" atribute</h2>
+    <label for="Fname">First name</label>
+    <input type="text" name="Fname" id="Fname"><br><br>
+    <label for="Name">Pin</label>
+    <input type="text" name="pin" id="pin" maxlength="5"><br><br>
+    <input type="submit">
+    <form action="">
+        <label for="story">fikir mulohazalar</label><br><br>
+
+<textarea id="story" name="story"
+          rows="10" cols="33">
+fikir mulohazalar
+</textarea>
+
+    </form>
+
+</body>
+</html>

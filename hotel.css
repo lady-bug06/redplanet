@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  html body{
+      overflow-x: hidden;
+  }
+  .div1{
+      border: 1px solid red;
+      width: 100vw;
+      height: 100vh;
+  }
+  .div1 .img{
+      width: 100%;
+      height: 100%;
+  }
+  .div1 .div2{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      margin-top: 60px;
+  }
+  .div3{
+      margin-top: 20px;
+  }
+  h1{
+      margin-top: 20px;
+      margin-left: 50px;
+  }
+  span{
+      color: rgb(253, 33, 4);
+  }
+  .div4{
+      float: right;
+      margin-right: 50px;
+  }
+  .div4 ul{
+      display: flex;
+  }
+  .div4 li{
+      text-decoration: none;
+      margin: 20px;
+      list-style-type: none;
+  }
+  .div4 a{
+      text-decoration: none;
+      color: rgb(245, 248, 207);
+      padding: 5px;
+      font-size: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .li1{
+      border: 2px solid rgb(253, 33, 4);
+      border-radius: 5px;
+      /* padding: 5px; */
+      /* color: hotpink; */
+      background-color: rgb(253, 33, 4);
+  }
+  .div5{
+      width: 50%;
+      margin: 350px 700px;
+      font-size: 40px;
+      
+  }
+  .di1{
+      position: absolute;
+        top: 950px;
+        right: 550px;
+        bottom: 0;
+        
+        border: 5px solid white;
+      background-color: white;
+      width: 750px; 
+      height: 200px; 
+      margin: auto;
+      font-size: 30px;
+      padding: 30px;
+      border-radius: 10px;
+  }
+  input{
+      border:  2px solid  darkgrey;
+      border-radius: 3px;
+  }
+  .button1{
+    left: 50px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(253, 33, 4);
+    border: rgb(253, 33, 4);
+    border-radius: 20px;
+}
+.section{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 20px 550px;
+    height: 650px;
+    background-color: rgba(116, 132, 163, 0.267);
+}
+.left{
+    width: 50%;
+}
+.right{
+    padding: 20px 150px;
+    width: 50%;
+}
+.right img{
+    height: 400px;
+}
+.button2{
+    background-color: rgb(253, 33, 4);
+    border: rgb(253, 33, 4);
+    width: 250px;
+    height: 40px;
+    border-radius: 30px; 
+}
+.div6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+}
+.div7{
+    margin: 50px;
+}
+.div7:hover{
+    transform: rotateY(180deg);
+    transition: 1s;
+     margin: 50px;
+}
+.div8{
+    margin: 50px;
+}
+.div8:hover{
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.div9{
+    margin: 50px;
+}
+.div9:hover{
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.div13{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+}
+.div10{
+    margin: 50px;
+}
+.div10:hover{
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.div11{
+    margin: 50px;
+}
+.div11:hover{
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.div12{
+    margin: 50px;
+}
+.div12:hover{
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.div16{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+}
+.div13{
+    margin: 20px;
+}
+.div14{
+    margin: 20px;
+}
+.div15{
+    margin: 20px;
+}
+.div17{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.div17 img{
+     width: 800px;
+     height: 900px;
+}
+.div18{
+    background-image: url(./photo-1632762346768-80b093fc5f38.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+    /* opacity: 0.5; */
+}
+.di2{
+     justify-content: center;
+}
+.ul2{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+}
+.ul2 li{
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    color: rgb(5, 247, 255);
+    font-size: 30px;
+}
+.kdiv{
+    display: flex;
+    margin: 50px;
+}
+.div20{
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 400px;
+    margin: 90px;
+    margin-left: 150px;
+}
+.div21{
+    display: inline-block;
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    justify-content: center;
+    margin-left: 100px;
+}
+.div22{
+    background-color: rgba(199, 202, 247, 0.336);
+    height: 860px;
+    
+}
+.div23{
+    display: flex;
+    justify-content: center;
+}
+.di24{
+    
+    background-color: white;
+    height: 480px;
+    width: 345px;
+    margin: 20px;
+}
+.img1{
+    width: 345px;
+}
